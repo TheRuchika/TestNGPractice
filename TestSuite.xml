@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+
+<suite name="TestSuite" verbose="2">
+    <test name = "SampleTestCases">
+        <classes>
+            <class name="testNG.AlwaysRun"></class>
+            <class name="testNG.EnableDisable"/>
+            <class name="testNG.Priority"/>
+
+        </classes>
+
+    </test>
+
+</suite>
